@@ -21,11 +21,11 @@ Aby uruchomić program należy w konsoli przejść do folderu w którym zapisane
 __ __ __ __ __
 Po uruchomieniu programu należy wybrać rodzaj ładowanych danych. Następnie należy podać ścieżkę do odpowiedniego pliku
 
-![loading](https://github.com/RechnioMateusz/Generator-slow/READMEimages/loading.jpg)
+![loading](https://github.com/RechnioMateusz/Generator-slow/blob/master/READMEimages/loading.jpg)
 
 Po załadowaniu danych można wybrać:
 
-![menu](https://github.com/RechnioMateusz/Generator-slow/READMEimages/menu.jpg)
+![menu](https://github.com/RechnioMateusz/Generator-slow/blob/master/READMEimages/menu.jpg)
 
 * Po wybraniu "_a_" program przełączy się do menu generowania słów
 * Po wybraniu "_b_" program wyświetli macierz zależności
@@ -38,4 +38,4 @@ Po przełączeniu się do menu generowania słów należy podać długość maks
 * Po wybraniu "_c_" program pozwala na poprawienie wygenerowanego słowa a następnie aktualizuje macierz zależności
 * Po wybraniu "_x_" program powraca do menu
 
-![generating](https://github.com/RechnioMateusz/Generator-slow/READMEimages/generating.jpg)
+![generating](https://github.com/RechnioMateusz/Generator-slow/blob/master/READMEimages/generating.jpg)
