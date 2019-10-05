@@ -50,3 +50,21 @@ def check_if_matrix_of_numbers(param):
                     msg="Value in list is not a int nor float",
                     desc=f"It is {type(element)}"
                 )
+
+
+def split_text(text):
+    if not isinstance(text, str):
+        raise TypeError(f"Text is not string. It is {type(text)}")
+
+    alpha_numerics = list(range(33, 48)) + list(range(58, 65))
+    alpha_numerics += list(range(91, 97)) + list(range(123, 127))
+
+    for ascii_decimal in alpha_numerics:
+        text = text.replace(chr(ascii_decimal), "")
+
+    text = text.replace("\n", " ")
+    text = text.replace("\t", " ")
+
+    words = text.split(" ")
+    words = [word for word in words if word]
+    return words
